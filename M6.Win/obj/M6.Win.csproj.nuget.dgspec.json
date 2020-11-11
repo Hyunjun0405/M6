@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Win\\M6.Win.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj",
+        "projectName": "M6.Data",
+        "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj",
+        "projectName": "M6.Web",
+        "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj": {
+                "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Win\\M6.Win.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Win\\M6.Win.csproj",
+        "projectName": "M6.Win",
+        "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Win\\M6.Win.csproj",
+        "packagesPath": "C:\\Users\\jun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Win\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jun\\.nuget\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/c4xshNuX8uH8tr8dZ2KqbE3fgSkaxc7GjhRX75pfX1azg1qvHw/api": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj": {
+                "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj"
+              },
+              "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj": {
+                "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.WebHost": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VFfJSDtI5ThydL1Oy3Ilpb9wame3GhlFaiMMa0W/LbLb45Zaq6FmR50/qSRrs4DL0aG+yJ1x6ImmQb7FgYXpEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jun\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\jun\\.nuget\\packages\\telerik.dataaccess.core\\2018.0.1127.1\\telerik.dataaccess.core.2018.0.1127.1.nupkg.sha512",
+    "C:\\Users\\jun\\.nuget\\packages\\telerik.dataaccess.fluent\\2018.0.1127.1\\telerik.dataaccess.fluent.2018.0.1127.1.nupkg.sha512"
+  ],
+  "logs": []
+}

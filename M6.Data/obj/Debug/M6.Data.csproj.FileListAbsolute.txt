@@ -1,0 +1,6 @@
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\bin\Debug\M6.Data.dll
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\bin\Debug\M6.Data.pdb
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\M6.Data.csproj.CoreCompileInputs.cache
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\M6.Data.dll
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\M6.Data.pdb
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\M6.Data.csprojAssemblyReference.cache

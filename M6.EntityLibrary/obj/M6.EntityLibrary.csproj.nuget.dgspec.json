@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj",
+        "projectName": "M6.EntityLibrary",
+        "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj",
+        "packagesPath": "C:\\Users\\jun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jun\\.nuget\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/c4xshNuX8uH8tr8dZ2KqbE3fgSkaxc7GjhRX75pfX1azg1qvHw/api": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Telerik.DataAccess.Core": {
+              "target": "Package",
+              "version": "[2018.0.1127.1, )"
+            },
+            "Telerik.DataAccess.Fluent": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2018.0.1127.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

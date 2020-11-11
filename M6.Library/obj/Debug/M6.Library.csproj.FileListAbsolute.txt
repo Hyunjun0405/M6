@@ -1,0 +1,2 @@
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Library\obj\Debug\M6.Library.csprojAssemblyReference.cache
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Library\obj\Debug\M6.Library.csproj.CoreCompileInputs.cache

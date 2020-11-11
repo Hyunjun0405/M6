@@ -1,0 +1,9 @@
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\netcoreapp3.1\M6.Data.csprojAssemblyReference.cache
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\netcoreapp3.1\M6.Data.AssemblyInfoInputs.cache
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\netcoreapp3.1\M6.Data.AssemblyInfo.cs
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\netcoreapp3.1\M6.Data.csproj.CoreCompileInputs.cache
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\bin\Debug\netcoreapp3.1\M6.deps.json
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\bin\Debug\netcoreapp3.1\M6.dll
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\bin\Debug\netcoreapp3.1\M6.pdb
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\netcoreapp3.1\M6.dll
+C:\Users\jun\Desktop\2020\JUN\M6\M6.Data\obj\Debug\netcoreapp3.1\M6.pdb

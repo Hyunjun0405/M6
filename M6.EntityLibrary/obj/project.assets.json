@@ -1,0 +1,359 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "EntityFramework/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "build": {
+          "buildTransitive/EntityFramework.props": {},
+          "buildTransitive/EntityFramework.targets": {}
+        }
+      },
+      "Telerik.DataAccess.Core/2018.0.1127.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        }
+      },
+      "Telerik.DataAccess.Fluent/2018.0.1127.1": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.DataAccess.Core": "[2018.0.1127.1]"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "EntityFramework/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "build": {
+          "buildTransitive/EntityFramework.props": {},
+          "buildTransitive/EntityFramework.targets": {}
+        }
+      },
+      "Telerik.DataAccess.Core/2018.0.1127.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        }
+      },
+      "Telerik.DataAccess.Fluent/2018.0.1127.1": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.DataAccess.Core": "[2018.0.1127.1]"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "EntityFramework/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "build": {
+          "buildTransitive/EntityFramework.props": {},
+          "buildTransitive/EntityFramework.targets": {}
+        }
+      },
+      "Telerik.DataAccess.Core/2018.0.1127.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        }
+      },
+      "Telerik.DataAccess.Fluent/2018.0.1127.1": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.DataAccess.Core": "[2018.0.1127.1]"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "EntityFramework/6.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "build": {
+          "buildTransitive/EntityFramework.props": {},
+          "buildTransitive/EntityFramework.targets": {}
+        }
+      },
+      "Telerik.DataAccess.Core/2018.0.1127.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Telerik.OpenAccess.35.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.40.Extensions.dll": {},
+          "lib/net40/Telerik.OpenAccess.Runtime.dll": {},
+          "lib/net40/Telerik.OpenAccess.dll": {}
+        }
+      },
+      "Telerik.DataAccess.Fluent/2018.0.1127.1": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.DataAccess.Core": "[2018.0.1127.1]"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFramework/6.4.4": {
+      "sha512": "yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
+      "type": "package",
+      "path": "entityframework/6.4.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/EntityFramework.DefaultItems.props",
+        "build/EntityFramework.props",
+        "build/EntityFramework.targets",
+        "build/Microsoft.Data.Entity.Build.Tasks.dll",
+        "build/netcoreapp3.0/EntityFramework.props",
+        "build/netcoreapp3.0/EntityFramework.targets",
+        "buildTransitive/EntityFramework.props",
+        "buildTransitive/EntityFramework.targets",
+        "buildTransitive/netcoreapp3.0/EntityFramework.props",
+        "buildTransitive/netcoreapp3.0/EntityFramework.targets",
+        "content/net40/App.config.install.xdt",
+        "content/net40/App.config.transform",
+        "content/net40/Web.config.install.xdt",
+        "content/net40/Web.config.transform",
+        "entityframework.6.4.4.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "lib/netstandard2.1/EntityFramework.SqlServer.dll",
+        "lib/netstandard2.1/EntityFramework.SqlServer.xml",
+        "lib/netstandard2.1/EntityFramework.dll",
+        "lib/netstandard2.1/EntityFramework.xml",
+        "tools/EntityFramework6.PS2.psd1",
+        "tools/EntityFramework6.PS2.psm1",
+        "tools/EntityFramework6.psd1",
+        "tools/EntityFramework6.psm1",
+        "tools/about_EntityFramework6.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/net40/any/ef6.exe",
+        "tools/net40/any/ef6.pdb",
+        "tools/net40/win-x86/ef6.exe",
+        "tools/net40/win-x86/ef6.pdb",
+        "tools/net45/any/ef6.exe",
+        "tools/net45/any/ef6.pdb",
+        "tools/net45/win-x86/ef6.exe",
+        "tools/net45/win-x86/ef6.pdb",
+        "tools/netcoreapp3.0/any/ef6.dll",
+        "tools/netcoreapp3.0/any/ef6.pdb",
+        "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "Telerik.DataAccess.Core/2018.0.1127.1": {
+      "sha512": "UdLszDce6iTXu9MhpC4f0Q9Y51hH72eBcEb+gPOavULtlnz1mJQoK7sQUTRirbuNM+mtglff6GiEwcEKw2ENVA==",
+      "type": "package",
+      "path": "telerik.dataaccess.core/2018.0.1127.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "lib/net20/Telerik.OpenAccess.35.Extensions.dll",
+        "lib/net20/Telerik.OpenAccess.35.Extensions.xml",
+        "lib/net20/Telerik.OpenAccess.Runtime.dll",
+        "lib/net20/Telerik.OpenAccess.dll",
+        "lib/net20/Telerik.OpenAccess.xml",
+        "lib/net40/Telerik.OpenAccess.35.Extensions.dll",
+        "lib/net40/Telerik.OpenAccess.35.Extensions.xml",
+        "lib/net40/Telerik.OpenAccess.40.Extensions.dll",
+        "lib/net40/Telerik.OpenAccess.40.Extensions.xml",
+        "lib/net40/Telerik.OpenAccess.Runtime.dll",
+        "lib/net40/Telerik.OpenAccess.dll",
+        "lib/net40/Telerik.OpenAccess.xml",
+        "readme.txt",
+        "telerik.dataaccess.core.2018.0.1127.1.nupkg.sha512",
+        "telerik.dataaccess.core.nuspec"
+      ]
+    },
+    "Telerik.DataAccess.Fluent/2018.0.1127.1": {
+      "sha512": "lVmjelJeGG2ArVLxgc0c2valGsLw7mYUJQPmnqlltp+E3A+5Z7avCBfL8uPk+cPeUm0sgmGO0CWZYang8jGsCg==",
+      "type": "package",
+      "path": "telerik.dataaccess.fluent/2018.0.1127.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/OpenAccessNuGet.targets",
+        "readme.txt",
+        "telerik.dataaccess.fluent.2018.0.1127.1.nupkg.sha512",
+        "telerik.dataaccess.fluent.nuspec",
+        "tools/cleanProject.ps1",
+        "tools/enhancer/CecilLicense.txt",
+        "tools/enhancer/Mono.Cecil.Pdb.dll",
+        "tools/enhancer/Mono.Cecil.dll",
+        "tools/enhancer/Telerik.OpenAccess.SDK.dll",
+        "tools/enhancer/Telerik.OpenAccess.dll",
+        "tools/enhancer/enhancer.exe",
+        "tools/enhancer/enhancer.exe.config",
+        "tools/enhancer/venhance.exe",
+        "tools/enhancer/venhance.exe.config",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "EntityFramework >= 6.4.4",
+      "Telerik.DataAccess.Core >= 2018.0.1127.1",
+      "Telerik.DataAccess.Fluent >= 2018.0.1127.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jun\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj",
+      "projectName": "M6.EntityLibrary",
+      "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\M6.EntityLibrary.csproj",
+      "packagesPath": "C:\\Users\\jun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.EntityLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\jun\\.nuget\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/c4xshNuX8uH8tr8dZ2KqbE3fgSkaxc7GjhRX75pfX1azg1qvHw/api": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[6.4.4, )"
+          },
+          "Telerik.DataAccess.Core": {
+            "target": "Package",
+            "version": "[2018.0.1127.1, )"
+          },
+          "Telerik.DataAccess.Fluent": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2018.0.1127.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
