@@ -16,7 +16,7 @@ namespace M6.Web.Controllers
         [HttpGet]
         public DataSet Get()
         {
-            return BaseData.GetDataSet(CommandType.Text, "SELECT TOP 10 * FROM BASE.코드");
+            return BaseData.GetDataSet(CommandType.Text, "SELECT TOP 10 * FROM 코드");
         }
 
         [HttpGet]
@@ -29,24 +29,24 @@ namespace M6.Web.Controllers
         public DataSet GetData(CommandType _type, string _query)
         {
             return BaseData.GetDataSet(_type, _query);
+        }        
+
+        [HttpPost]
+        public DataSet GetData(CommandType _type, string _query, [FromBody] Dictionary<string,object> _Dictionary)
+        {
+            return BaseData.GetDataSet<Dictionary<string, object>>(_type, _query, _Dictionary);
         }
 
         [HttpPost]
-        public DataSet GetData(CommandType _type, string _query, [FromBody]Dictionary<string,object> _paramDic)
+        public DataSet GetData(CommandType _type, string _query, [FromBody] SqlParameter[] _SqlParameters)
         {
-            return BaseData.GetDataSet(_type, _query, _paramDic);
+            return BaseData.GetDataSet(_type, _query, _SqlParameters);
         }
 
         [HttpPost]
-        public DataSet GetData(CommandType _type, string _query, [FromBody] SqlParameter[] _sqlparameters)
+        public DataSet GetData(CommandType _type, string _query, [FromBody] DataTable _DataTable)
         {
-            return BaseData.GetDataSet(_type, _query, _sqlparameters);
-        }
-
-        [HttpPost]
-        public DataSet GetData(CommandType _type, string _query, [FromBody] DataTable _paramTable)
-        {
-            return BaseData.GetDataSet(_type, _query, _paramTable);
+            return BaseData.GetDataSet(_type, _query, _DataTable);
         }
     }
 }

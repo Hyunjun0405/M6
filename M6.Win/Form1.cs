@@ -13,6 +13,8 @@ using M6.Data.Models;
 using DevExpress.XtraDataLayout;
 using DevExpress.XtraEditors.Repository;
 using DevExpress.XtraEditors.Controls;
+using M6.Win.Properties;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace M6.Win
 {
@@ -29,7 +31,7 @@ namespace M6.Win
         {
             comboBoxEdit1.Properties.Items.Clear();
 
-           var 코드리스트 = from u in global.코드리스트 where u.종류 == "공항" select u;
+           var 코드리스트 = from u in global.코드리스트 where u.컬럼명 == "공항" select u;
 
             foreach (기초코드 v in 코드리스트)
             {
@@ -42,12 +44,12 @@ namespace M6.Win
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            BindingSource bs = new BindingSource();
-            bs.DataSource = typeof(상품);
-            bs.AddNew();
+            //BindingSource bs = new BindingSource();
+            //bs.DataSource = typeof(Product);
+            //bs.AddNew();
             dataLayoutControl1.FieldRetrieving += dataLayoutControl1_FieldRetrieving;
             dataLayoutControl1.FieldRetrieved += DataLayoutControl1_FieldRetrieved;
-            dataLayoutControl1.DataSource = bs;
+            //dataLayoutControl1.DataSource = bs;
 
             dataLayoutControl1.RetrieveFields();
         }
@@ -56,8 +58,13 @@ namespace M6.Win
 
         private void dataLayoutControl1_FieldRetrieving(object sender, FieldRetrievingEventArgs e)
         {
-            if (e.FieldName == "상품종류")
-                e.EditorType = typeof(LookUpEdit);
+            LayoutElementsBindingInfo info = dataLayoutControl1.GetLayoutElementsBindingsInfo();
+            LayoutElementBindingInfo elInfo = info.GetAllBindings().FirstOrDefault(b => b.DataInfo.Name == e.FieldName);
+            var attribute = elInfo.DataInfo.PropertyDescriptor.Attributes;
+            
+            var x = elInfo.DataInfo.PropertyDescriptor.Attributes.OfType<ColumnAttribute>().FirstOrDefault();
+            Type type = elInfo.DataInfo.Type;
+
             e.DataSourceUpdateMode = DataSourceUpdateMode.OnPropertyChanged;
             e.Handled = true;
         }

@@ -8,12 +8,6 @@ namespace M6.Web.Controllers
     public class BaseParam
     {
 
-        protected SqlParameter[] sqlParam = null;
-
-        public BaseParam()
-        {
-        }
-
         public static SqlParameter[] GetParameters(Dictionary<string, object> _paramDic)
         {
             int i = 0;
@@ -49,15 +43,15 @@ namespace M6.Web.Controllers
         }
     }
 
-    public class Parmeter
+    public class QueryParmeter
     {
         public DataTable dt = null;
 
-        public static DataTable Table()
+        public static DataTable ParamTable()
         {
 
             DataTable dt = new DataTable();
-            dt.Columns.AddRange(new DataColumn[] { new DataColumn("Name"),                                                   
+            dt.Columns.AddRange(new DataColumn[] { new DataColumn("Name"),
                                                    new DataColumn("Value"),
                                                    new DataColumn("Type"),
                                                    new DataColumn("Size")
@@ -75,7 +69,7 @@ namespace M6.Web.Controllers
 
         public void ADD(string _name, object _value, string _type, int _size)
         {
-            dt.Rows.Add(_name, _value, _type , _size);
-        }       
+            dt.Rows.Add(_name, _value, _type, _size);
+        }
     }
 }

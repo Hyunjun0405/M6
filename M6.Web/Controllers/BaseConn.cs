@@ -70,7 +70,8 @@ namespace M6.Web.Controllers
 				if (!string.IsNullOrEmpty(_staticConnectionString))
 					return _staticConnectionString;
 
-				return "Data Source=172.17.6.65,1942;Initial Catalog=M6;Persist Security Info=True;User ID=mode_jun;Password=M0detour!!";
+				//return "Data Source=172.17.6.65,1942;Initial Catalog=M6;Persist Security Info=True;User ID=mode_jun;Password=M0detour!!";
+				return @"Data Source=DESKTOP-GUKSU2D\SQLEXPRESS;Initial Catalog=M6;Integrated Security=True";
 				//return ConfigWrapper.GetConnectionString("c8ed55d4-9993-47df-a4fb-d697b9b3d83d");
 			}
 		}
