@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using M6.Data.Global;
 
-
-namespace M6.Data
+namespace M6.Data.Models
 {
-    [MetadataType(typeof(publicEnum))]
+    [MetadataType(typeof(Enums))]
     [Table("상품", Schema ="Product")]
     public partial class Product
     {
@@ -20,7 +20,7 @@ namespace M6.Data
 
         [Column("상품종류", TypeName = "CD"), Required(AllowEmptyStrings = false, ErrorMessage = "코드는 필수선택입니다.")]
         [Display( GroupName = "<Key|>", Description = "", Prompt = "")]
-        [EnumDataType(typeof(publicEnum.enum상품_상품종류), ErrorMessage = "")]
+        [EnumDataType(typeof(Enums.enum상품_상품종류), ErrorMessage = "")]
         public int? ProductType { get; set; } // int
         
         [Column("상품명", TypeName = "TITLE"), Required(AllowEmptyStrings = false, ErrorMessage = "이름은 필수입니다."), DisplayFormat(ConvertEmptyStringToNull = true, NullDisplayText = "")]
@@ -66,12 +66,12 @@ namespace M6.Data
 
         [Column("행사날짜기준", TypeName = "CD"), Required(AllowEmptyStrings = false, ErrorMessage = "코드는 필수선택입니다.")]
         [Display( GroupName = "Rule-", Description = "", Prompt = "")]
-        [EnumDataType(typeof(publicEnum.enum상품_행사날짜기준), ErrorMessage = "")]
+        [EnumDataType(typeof(Enums.enum상품_행사날짜기준), ErrorMessage = "")]
         public int? SessionDateType { get; set; } // int
 
         [Column("좌석확정기준", TypeName = "CD"), Required(AllowEmptyStrings = false, ErrorMessage = "코드는 필수선택입니다.")]
         [Display( GroupName = "Rule-",   Description = "", Prompt = "")]
-        [EnumDataType(typeof(publicEnum.enum상품_좌석확정기준), ErrorMessage = "")]
+        [EnumDataType(typeof(Enums.enum상품_좌석확정기준), ErrorMessage = "")]
         public int? ConfirmType { get; set; } // int
 
         [Column("대기예약허용", TypeName = "BIT"), Required(AllowEmptyStrings = false, ErrorMessage = "필수선택입니다.")]
@@ -80,7 +80,7 @@ namespace M6.Data
 
         [Column("완납시한기준", TypeName = "CD"), Required(AllowEmptyStrings = false, ErrorMessage = "코드는 필수선택입니다.")]
         [Display( GroupName = "Rule-",  Description = "", Prompt = "")]
-        [EnumDataType(typeof(publicEnum.enum상품_완납시한기준), ErrorMessage = "")]
+        [EnumDataType(typeof(Enums.enum상품_완납시한기준), ErrorMessage = "")]
         public int? PaytDateType { get; set; } // int
 
         [Column("완납시한", TypeName = "QUANTITY"), DataType(DataType.Duration), Required(AllowEmptyStrings = false, ErrorMessage = "수량은 필수입니다")]

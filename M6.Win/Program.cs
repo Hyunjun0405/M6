@@ -21,7 +21,7 @@ namespace M6.Win
             //WindowsFormsSettings.DefaultFont = new System.Drawing.Font("맑은고딕", 12);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form2());
         }
     }
 }

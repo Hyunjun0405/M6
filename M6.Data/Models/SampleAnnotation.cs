@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using M6.Data.Global;
 
-namespace M6.Data.Models
+
+namespace M6.Data.Global
 {
     public class SampleAnnotation
     {
@@ -38,7 +40,7 @@ namespace M6.Data.Models
         #region Code
         [Column("코드", TypeName = "CD"), Required(AllowEmptyStrings = false, ErrorMessage = "코드는 필수선택입니다.")]
         [Display(AutoGenerateFilter = true, GroupName = "<Code|>", Order = 1, Name = "", ShortName = "", Description = "", Prompt = "")]
-        [EnumDataType(typeof(enumType), ErrorMessage = "")]
+        [EnumDataType(typeof(Enums), ErrorMessage = "")]
         public string Code;
 
         [Column("여부", TypeName = "BIT"), Required(AllowEmptyStrings = false, ErrorMessage = "필수선택입니다.")]
@@ -110,7 +112,7 @@ namespace M6.Data.Models
 
         [Column("통화코드", TypeName = "CD"), Required(AllowEmptyStrings = false, ErrorMessage = "코드는 필수선택입니다.")]
         [Display(AutoGenerateFilter = true, GroupName = "<원가|>", Order = 1, Name = "", ShortName = "", Description = "", Prompt = "")]
-        [EnumDataType(typeof(publicEnum.enum상품_통화코드), ErrorMessage = "")]
+        [EnumDataType(typeof(Enums.enum상품_통화코드), ErrorMessage = "")]
         public string 통화코드;
 
         [Column("단가", TypeName = "COST"), DataType(DataType.Currency), Required(AllowEmptyStrings = false, ErrorMessage = "단가는 필수입니다")]
@@ -208,13 +210,5 @@ namespace M6.Data.Models
         public enum GenderEnum { Male, Female }
 
         #endregion
-    }
-
-
-    enum enumType
-    {
-        Comma = ',',
-        Tab = '\t',
-        Space = ' '
     }
 }

@@ -125,7 +125,7 @@
             // 
             // productBindingSource
             // 
-            this.productBindingSource.DataSource = typeof(M6.Data.Product);
+            //this.productBindingSource.DataSource = typeof(M6.Data.Product);
             // 
             // Form1
             // 

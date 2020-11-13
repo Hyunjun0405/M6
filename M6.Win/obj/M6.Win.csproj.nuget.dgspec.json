@@ -14,25 +14,6 @@
         "net48": {}
       }
     },
-    "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj",
-        "projectName": "M6.Web",
-        "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj": {
-                "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
     "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Win\\M6.Win.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -50,6 +31,7 @@
         "configFilePaths": [
           "C:\\Users\\jun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -71,31 +53,13 @@
             "projectReferences": {
               "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj": {
                 "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Data\\M6.Data.csproj"
-              },
-              "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj": {
-                "projectPath": "C:\\Users\\jun\\Desktop\\2020\\JUN\\M6\\M6.Web\\M6.Web.csproj"
               }
             }
           }
         }
       },
       "frameworks": {
-        "net48": {
-          "dependencies": {
-            "Microsoft.AspNet.WebApi": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
-            "Microsoft.AspNet.WebApi.Client": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
-            "Microsoft.AspNet.WebApi.WebHost": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            }
-          }
-        }
+        "net48": {}
       },
       "runtimes": {
         "win": {

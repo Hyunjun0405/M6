@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿
+using System;
 using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-using System.Net.Http;
+using M6.Data;
+
 
 namespace M6.Win
 {
@@ -21,20 +19,35 @@ namespace M6.Win
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-
-            //string url = @"https://localhost:44341/api/DateSet/GetDataSet";
-
-            //using (var client = new HttpClient())
-            //{
-            //    using (var response = client.GetAsync(url))
-            //    {                   
-
-            //            gridControl1.DataSource = response;
-            //        }
-            //    }
+            memoEdit1.Text = "";
+            memoEdit2.Text = "";
+            //GetAllProducts();
 
 
-            //}
+        }
+
+        //private async void GetAllProducts()
+        //{           
+        //}
+
+        private void memoEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            //var t=Task.Run(() => M6.Win.Helper.CallAPI.PostBasicAsync(CommandType.Text, "SELECT TOP 10 번호,코드명,컬럼명 FROM 코드"));
+            //t.Wait();
+
+            
+            //memoEdit1.Text = "";
+            //memoEdit2.Text = "";
+
+            //memoEdit1.Text = t.ToString();
+            //memoEdit2.Text = t.Result.ToString();
+
         }
     }
 }

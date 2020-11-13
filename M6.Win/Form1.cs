@@ -29,14 +29,14 @@ namespace M6.Win
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            comboBoxEdit1.Properties.Items.Clear();
+           // comboBoxEdit1.Properties.Items.Clear();
 
-           var 코드리스트 = from u in global.코드리스트 where u.컬럼명 == "공항" select u;
+           //var 코드리스트 = from u in Global.코드리스트 where u.컬럼명 == "공항" select u;
 
-            foreach (기초코드 v in 코드리스트)
-            {
-                comboBoxEdit1.Properties.Items.Add(v.코드명);
-            }           
+           // foreach (기초코드 v in 코드리스트)
+           // {
+           //     comboBoxEdit1.Properties.Items.Add(v.코드명);
+           // }           
 
             
             
@@ -79,19 +79,19 @@ namespace M6.Win
 
         private void simpleButton2_Click(object sender, EventArgs e)
         {
-            global.RefreshData();
+            //global.RefreshData();
         }
 
         private void simpleButton3_Click(object sender, EventArgs e)
         {
-            var rs = global.GetCodeValue("",comboBoxEdit1.Text);
-            Console.WriteLine(rs);
+            //var rs = global.GetCodeValue("",comboBoxEdit1.Text);
+            //Console.WriteLine(rs);
         }
 
         private void SetValue(object sender, EventArgs e)
         {
-            var rs = global.GetCodeValue("", comboBoxEdit1.Text);
-            textBox1.Text = rs;
+            //var rs = global.GetCodeValue("", comboBoxEdit1.Text);
+            //textBox1.Text = rs;
 
             //ControlHelper.BindingDataToControl(this.lookUpEdit1);
         }

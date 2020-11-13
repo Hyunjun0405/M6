@@ -42,13 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\1.기초\Base.cs" />
+    <Compile Include="Models\1.기초\Common.cs" />
     <Compile Include="Models\4.상품\Product.cs" />
-    <Compile Include="Models\publicParameter.cs" />
-    <Compile Include="Models\global.cs" />
-    <Compile Include="Models\publicEnum.cs" />
+    <Compile Include="Global\Codes.cs" />
+    <Compile Include="Global\Enums.cs" />
     <Compile Include="Models\SampleAnnotation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Command\ConnectionProvider.cs" />
+    <Compile Include="Command\DataProvider.cs" />
+    <Compile Include="Helper\Converter.cs" />
+    <Compile Include="Helper\BaseParam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DataAnnotation.dgml" />
